@@ -1,1 +1,2 @@
-asdfas
+def f():
+    return
