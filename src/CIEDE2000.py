@@ -1,5 +1,4 @@
 import math
-import numpy as np
 
 
 def rgb2xyz(rgb):
