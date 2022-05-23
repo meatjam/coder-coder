@@ -1,0 +1,16 @@
+lpftw="rfi"
+adxfg="ezxivtu"
+oul=72160589
+znxoy="pecgbox"
+pzric=6598012
+usoh=09
+tamizx="zjcexa"
+rsmz=30
+rqm="lroke"
+hicn=423
+fwasce=41098635
+pkyox=81205739
+kitbrpz="otewfr"
+edhrovy=04
+ifogdyk="zrwc"
+mbi="rqgj"
