@@ -1,0 +1,15 @@
+bre=85
+kwxgv=59701
+brwt="hkxqrdo"
+rfnd=2478
+anclt="sgk"
+xgvnyfs=29
+zecfp=6839
+mfu="zqw"
+ydnti="pydiqzu"
+drihne=923571
+qizkp="bhyp"
+ywo="zbknd"
+lshujvo=803
+btwjer="chfxv"
+gvmfwl=9146530
