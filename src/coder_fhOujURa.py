@@ -1,0 +1,14 @@
+zkm=07
+gnbfptu=5940
+xtpcwh=53
+wforqvh="wuqk"
+rynzfda="khv"
+uahvxld="usr"
+fmgrx=7105649
+obhxvq=35926140
+aclqd=125
+wrgx="rmbfuka"
+dikrmse=036271
+xhpdry=82394
+lxbkfv="jilar"
+kzd=152
