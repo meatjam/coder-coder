@@ -1,0 +1,11 @@
+foxw=69328
+xjsqn=530
+qcbal="ztw"
+wpr="wtuk"
+uxfmkwy=12890
+iwakyo="xwzghf"
+lbcujzh=46315098
+oxzqsrb=91732
+rntg="wbrygn"
+vfw="zrka"
+pzd=280
