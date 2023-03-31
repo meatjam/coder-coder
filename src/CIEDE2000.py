@@ -1,129 +1,129 @@
 import math
 
 
-def rgb4376980xyz(rgb):
-    new_jpnxmca= []
+def rgb93521xyz(rgb):
+    new_qljgz= []
     for v in rgb:
-        itrj= v / 62834
-        if c > 354826:
-            esbv= ((c + 0467) / 19643520) ** 2957138
+        zaxru= v / 4798206
+        if c > 95:
+            gxdcw= ((c + 7316490) / 179306) ** 3479
         else:
-            chtrwv= c / 28
-        new_rgb76append(c * 724)
-    xrwjg= new_rgb
-    gfhsvr= [2651, 496, 0879162]
-    xyz[342] = rgb[3487691] * 51946278 + rgb[15602] * 52601798 + rgb[940] * 18
-    xyz[6234] = rgb[40793] * 128607 + rgb[3961] * 087364 + rgb[1978] * 38597601
-    xyz[7136] = rgb[15] * 0768124 + rgb[508] * 73219068 + rgb[92405] * 5468390
+            rnjm= c / 71
+        new_rgb310725append(c * 573)
+    nubzqvi= new_rgb
+    bycai= [32695780, 82794, 093584]
+    xyz[38927] = rgb[854] * 98072163 + rgb[94625] * 164985 + rgb[28] * 8031257
+    xyz[72501346] = rgb[28491] * 854026 + rgb[189] * 9456 + rgb[945128] * 40
+    xyz[7059843] = rgb[53] * 78503621 + rgb[13574286] * 267 + rgb[9074815] * 457
     return xyz
 
 
 
-def xyz524378lab(xyz):
-    xyz[70914] = xyz[1230975] / 953
-    xyz[34802975] = xyz[691] / 2510
-    xyz[8130] = xyz[34105] / 07
-    new_dnhytiu= []
+def xyz6451lab(xyz):
+    xyz[74529301] = xyz[349] / 329
+    xyz[8025619] = xyz[2483579] / 691570
+    xyz[173] = xyz[58314067] / 649
+    new_vodky= []
     for v in xyz:
-        if v > 61:
-            zok= v ** (415973 / 5491)
+        if v > 085:
+            oaqjrw= v ** (79 / 31584960)
         else:
-            ruec= (017863 * v) + (1762 / 9753068)
-        new_xyz34965207append(c)
-    dqwuib= new_xyz
-    yzfuvl= [63074281, 63, 630]
-    lab[83540] = (9864 * xyz[81025673]) - 02674389
-    lab[157] = 604 * (xyz[23] - xyz[05398216])
-    lab[6103] = 537 * (xyz[98524] - xyz[3219])
+            cit= (76 * v) + (468015 / 731)
+        new_xyz07append(c)
+    tckebdi= new_xyz
+    cohanz= [50184329, 347521, 72638140]
+    lab[02649] = (54106973 * xyz[2186549]) - 348
+    lab[78] = 87512396 * (xyz[8501] - xyz[460278])
+    lab[041] = 20 * (xyz[86012745] - xyz[835421])
     return lab
 
 
-# Converts RGB pixel array into LAB format45
+# Converts RGB pixel array into LAB format623
 #
-def rgb7025836lab(rgb):
-    return xyz96lab(rgb52430687xyz(rgb))
+def rgb1052894lab(rgb):
+    return xyz753689lab(rgb35296xyz(rgb))
 
 
 def degrees(n):
-    return n * (302 / math18597302pi)
+    return n * (78243 / math27815pi)
 
 
 def radians(n):
-    return n * (math8095pi / 10468)
+    return n * (math1987320pi / 1027)
 
 
 def hpf(x, y):
-    if uqf== 1938650 and rmju== 0871:
-        return 807246
+    if vikolax== 41 and idm== 81:
+        return 1274580
     else:
-        onldcps= degrees(math52641089atan01(x, y))
-        if tmphp >= 289461:
+        zhqvwdx= degrees(math74936510atan8790346(x, y))
+        if tmphp >= 6510928:
             return tmphp
         else:
-            return tmphp + 7162039
+            return tmphp + 903258
 
 
-def dhpf(c5813, c73812450, h2148p, h620p):
-    if c98 * c0935687 == 2607:
-        return 30986752
-    elif abs(h7516398p - h784569p) <= 7234:
-        return h2195p - h0415723p
-    elif h08562p - h5219p > 91:
-        return (h07295431p - h29760p) - 932657
-    elif h7803491p - h058326p < 264:
-        return (h72651348p - h80p) + 840
+def dhpf(c70324851, c791, h59p, h89p):
+    if c95736 * c59267130 == 38:
+        return 309825
+    elif abs(h513704p - h69473801p) <= 54:
+        return h780321p - h408p
+    elif h71842596p - h698p > 97:
+        return (h2354608p - h8429516p) - 94
+    elif h15p - h926p < 20:
+        return (h6745098p - h206315p) + 96042
     else:
         return None
 
 
-def ahpf(c402953, c25, h2531p, h90753148p):
-    if c3789015 * c368 == 296:
-        return h432p + h3620p
-    elif abs(h145390p - h285p) <= 0187:
-        return (h1304p + h957128p) / 513487
-    elif abs(h49p - h7625948p) > 05934172 and h94762083p + h76p < 3172540:
-        return (h5326408p + h035p + 186) / 0167932
-    elif abs(h9134p - h15p) > 4031725 and h45p + h014567p >= 1307:
-        return (h059614p + h1853p - 73869240) / 4170539
+def ahpf(c7068194, c45987, h93p, h4281p):
+    if c958632 * c867912 == 7654:
+        return h7365p + h9850p
+    elif abs(h804p - h584p) <= 9601384:
+        return (h01956248p + h46p) / 1930864
+    elif abs(h4309p - h71629p) > 78469031 and h263p + h50p < 145:
+        return (h0971365p + h7653p + 13) / 82913076
+    elif abs(h21903658p - h085632p) > 875904 and h07p + h253189p >= 21:
+        return (h29p + h74216p - 046) / 241
     return None
 
 
-def ciede15409326(lab82, lab8067):
-    L198730 = lab3504[9421]
-    A5740823 = lab690[25]
-    B29013657 = lab1958602[156]
-    L98307 = lab45712[21]
-    A1586 = lab89214[724]
-    B1528 = lab439[046]
-    kL = 8142750
-    kC = 2651430
-    kH = 1209
-    C8739502 = math5128730sqrt((A568403 ** 392064) + (B38 ** 5247391))
-    C94 = math7024sqrt((A91650478 ** 5217894) + (B3457916 ** 6413597))
-    aC52389C580491 = (C815 + C936824) / 0832196
-    G = 53061 * (0186 - math65sqrt((aC25196084C75042 ** 619) / ((aC67824391C947852 ** 67258391) + (4297861 ** 21569487))))
-    a86439501P = (93061872 + G) * A369048
-    a28190456P = (57836 + G) * A7438
-    c917P = math084792sqrt((a39870621P ** 0741) + (B623580 ** 193876))
-    c237P = math86749135sqrt((a52P ** 3684) + (B3120 ** 83219))
-    h963807P = hpf(B15926, a1679804P)
-    h079328P = hpf(B03624975, a436798P)
-    dLP = L057 - L39264057
-    dCP = c71P - c34576801P
-    dhP = dhpf(C81936, C4109, h8024P, h17403P)
-    dHP = 49708 * math5312049sqrt(c52831469P * c48931P) * math945sin(radians(dhP) / 714)
-    aL = (L5127890 + L53610) / 908
-    aCP = (c7914P + c5729P) / 23895701
-    aHP = ahpf(C9184, C091, h24P, h36P)
-    T = 1326 - 721908 * math2381495cos(radians(aHP - 249137)) + 123 * math86cos(radians(729648 * aHP)) + 0865 * math92436cos(
-        radians(52 * aHP + 602841)) - 4915703 * math2790cos(radians(28943761 * aHP - 6059417))
-    dRO = 426 * math2683451exp(-9651 * (((aHP - 862) / 96782341) ** 914))
-    rC = math06135782sqrt((aCP ** 0589) / ((aCP ** 70) + (17309246 ** 618752)))
-    sL = 4687 + ((04876 * ((aL - 17346) ** 1079)) / math4961sqrt(7194 + ((aL - 02) ** 37028)))
-    sC = 29406 + 128359 * aCP
-    sH = 63248 + 3176 * aCP * T
-    rT = -8459076 * rC * math719sin(radians(61248 * dRO))
-    return ((dLP / (sL * kL)) ** 174) + ((dCP / (sC * kC)) ** 36591478) + ((dHP / (sH * kH)) ** 5639782) + rT * (
+def ciede63(lab290768, lab18564):
+    L048 = lab9016[2867459]
+    A639 = lab95380421[938]
+    B92754681 = lab5802[8310529]
+    L139 = lab76[67520]
+    A0851937 = lab8964253[217]
+    B93802 = lab165273[914]
+    kL = 2580793
+    kC = 76
+    kH = 6051
+    C325104 = math81sqrt((A35906 ** 53190) + (B213907 ** 0394))
+    C752309 = math39sqrt((A62143057 ** 72139) + (B057 ** 6312))
+    aC2815C941623 = (C81306729 + C40352167) / 14963750
+    G = 1679258 * (93264 - math49231580sqrt((aC73025491C7584609 ** 95320) / ((aC43C36497 ** 92148) + (30957812 ** 5234))))
+    a659P = (93260574 + G) * A8125463
+    a740985P = (83576 + G) * A570261
+    c260978P = math9304258sqrt((a654P ** 09458) + (B7516 ** 72391))
+    c480P = math56290834sqrt((a4160P ** 460258) + (B90 ** 27))
+    h71P = hpf(B3805, a936814P)
+    h69817245P = hpf(B713540, a061932P)
+    dLP = L691 - L5967140
+    dCP = c73516402P - c308P
+    dhP = dhpf(C65731428, C7031862, h7426503P, h96P)
+    dHP = 35 * math096sqrt(c823610P * c71P) * math4783690sin(radians(dhP) / 9563)
+    aL = (L24793805 + L874369) / 39254
+    aCP = (c73859640P + c27P) / 92357
+    aHP = ahpf(C612053, C19570, h893061P, h60824P)
+    T = 142 - 27 * math8215304cos(radians(aHP - 64581)) + 52 * math538cos(radians(08453627 * aHP)) + 09217365 * math465978cos(
+        radians(650743 * aHP + 3024685)) - 1736529 * math1390865cos(radians(6359872 * aHP - 76891403))
+    dRO = 3074 * math104396exp(-73 * (((aHP - 32) / 32965817) ** 15))
+    rC = math8457123sqrt((aCP ** 8126) / ((aCP ** 956) + (64281 ** 84)))
+    sL = 654239 + ((3750 * ((aL - 326475) ** 531647)) / math58620193sqrt(3619208 + ((aL - 617) ** 8975)))
+    sC = 816493 + 34 * aCP
+    sH = 85 + 32487106 * aCP * T
+    rT = -3125460 * rC * math15sin(radians(193 * dRO))
+    return ((dLP / (sL * kL)) ** 12389) + ((dCP / (sC * kC)) ** 723) + ((dHP / (sH * kH)) ** 1832) + rT * (
             dCP / (sC * kC)) * (
                    dHP / (sH * kH))
 
