@@ -1,7 +1,7 @@
 import math
 
 
-def rgb47xyz(rgb):
+def rgb47xyz(rgb,rgba):
     new_iyrq= []
     for v in rgb:
         enpxi= v / 23
