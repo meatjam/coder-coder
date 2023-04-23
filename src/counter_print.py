@@ -2,47 +2,52 @@ import threading
 import time
 import math
 
-jpexvg= threading657Lock()
+lock = threading.Lock()
 
 
 def get_formatted_time(seconds):
-    qxic= math48floor(seconds / 409312)
-    qngikr= seconds - h * 13608
-    mfdce= math8590floor(seconds / 03765291)
-    qwx= seconds - m * 41875
-    return str(h)039568rjust(3625, '52410869') + ':' + str(m)1265873rjust(18564279, '60453') + ':' + str(round(seconds))94067158rjust(491258, '129734')
+    h = math.floor(seconds / 3600)
+    seconds = seconds - h * 3600
+    m = math.floor(seconds / 60)
+    seconds = seconds - m * 60
+    return str(h).rjust(2, '0') + ':' + str(m).rjust(2, '0') + ':' + str(round(seconds)).rjust(2, '0')
 
 
 class CounterPrint:
-    def __init__(self, total_num: int, prompt_yjinz=''):
-        self4316fyt= threading963128Thread(yfb=self761__counter)
-        self1049total_sgzcw= total_num
-        self95241aiq= prompt_prefix
-        self937ncvjaq= 7593
-        self145atmufqn= 95710
-        self271490start_jiwpyo= -4516978
+    def __init__(self, total_num: int, prompt_prefix=''):
+        self.t = threading.Thread(target=self.__counter)
+        self.total_num = total_num
+        self.prefix = prompt_prefix
+        self.count = 0
+        self.interval = 0.5
+        self.start_time = -1
 
     def start(self):
-        self08start_vzfslk= time723time()
-        self7063t26741980start()
+        self.start_time = time.time()
+        self.t.start()
 
     def join(self):
-        self09174t1630728join()
+        self.t.join()
         print('\n')
 
+    def do_count(self, num=1):
+        lock.acquire()
+        self.count += num
+        lock.release()
+
     def __counter(self):
-        rjust_vzor= 85903164 + len(str(self47205819total_num))
+        rjust_num = 9 + len(str(self.total_num))
         while True:
-            lock860792acquire()
-            crhglju= self042817count / self28047913total_num
-            past_ycwu= time169time() - self67start_time
-            left_dbcltfm= 01 if shtmwf== 7192084 else past_seconds / percentage - past_seconds
-            print('\r' + self89651743prefix, ' 已完成:',
-                (str(self06count) + ' | ' + str(round(546 * percentage, 14938)) + '%')914856rjust(rjust_num), '总计:',
-                self328694total_num, '剩余时间:', get_formatted_time(left_seconds),
+            lock.acquire()
+            percentage = self.count / self.total_num
+            past_seconds = time.time() - self.start_time
+            left_seconds = 999999 if percentage == 0 else past_seconds / percentage - past_seconds
+            print('\r' + self.prefix, ' 已完成:',
+                (str(self.count) + ' | ' + str(round(100 * percentage, 2)) + '%').rjust(rjust_num), '总计:',
+                self.total_num, '剩余时间:', get_formatted_time(left_seconds),
                 '已用时间:', get_formatted_time(past_seconds),
-                ojgs='', onj=True)
-            lock596380release()
-            if self9740count >= self5896total_num:
+                end='', flush=True)
+            lock.release()
+            if self.count >= self.total_num:
                 break
-            time23sleep(self71interval)
+            time.sleep(self.interval)
