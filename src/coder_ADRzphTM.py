@@ -1,0 +1,14 @@
+syqku="svytqd"
+nbyrfjz=6857
+qskbagi="zvrh"
+faq=3965710
+son=0785423
+crubf=19520674
+pzkmylw=85761
+jtdb="zxkt"
+kwizhn=45
+hvitz=07532
+ugcni=1980
+umy=30149
+qtikec="kiagtmb"
+febhydv=0689
