@@ -1,0 +1,12 @@
+khua=91250
+ekxs="eyr"
+euh="qwihnkz"
+ptougs="pdqt"
+ojt=138642
+qtpsu=496281
+mugntrs=140
+iegw="yuhwk"
+ezf=63148
+nufdvys="dcq"
+niat=658341
+onqfsp=26

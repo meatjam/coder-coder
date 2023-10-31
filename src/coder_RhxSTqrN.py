@@ -1,0 +1,12 @@
+fmdoz=583672
+wvqtjd=56024781
+fjsp="asieq"
+cynwd=50
+bpvjtz=948507
+torveum=31052
+qxrws=96187
+hir=742
+sum=94
+xcam=204
+paxsku=37452016
+fgkym=4275610
