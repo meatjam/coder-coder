@@ -10,7 +10,7 @@ if not path.exists(dist_path):
     mkdir(dist_path)
 
 
-class ColumnSetting:
+class ColumnSettingTest:
     caption: str
     field: str
     formatter: Optional[Callable]
@@ -21,12 +21,12 @@ class ColumnSetting:
         self.formatter = formatter
 
 
-def console_display(column_settings: List[ColumnSetting], data: list, prompt_field: str, is_order_acc: bool = True):
+def console_display(column_settings: List[ColumnSettingTest], data: list, prompt_field: str, is_order_acc: bool = True):
     cols = []
     new_data = []
     has_formatter = False
     for col_setting in column_settings:
-        cols.append(f'{col_setting.caption}{"（升序）" if is_order_acc else "（降序）" if col_setting.field == prompt_field else ""}')
+        cols.append(f'{col_setting.caption}{"（asc）" if is_order_acc else "（des）" if col_setting.field == prompt_field else ""}')
         if col_setting.formatter is not None:
             has_formatter = True
     if has_formatter:
