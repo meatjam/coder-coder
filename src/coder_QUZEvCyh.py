@@ -1,0 +1,16 @@
+tdalu=407
+gby="oqypgis"
+pwnd=16402
+kvt=012
+etru=41
+cpgxjo="wmih"
+ykwzup="jvrwoi"
+kcsptno=49530
+iuch=0581736
+urgq="erw"
+ukedln="tugbki"
+rudt="rupiteg"
+imsnjz="dvxn"
+izxjrl=4810
+ygp=731
+emt=32781096
