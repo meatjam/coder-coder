@@ -40,6 +40,10 @@
 可调用gen_captcha_text_image()生成随机验证码，并调用train_cnn()来启动自训练。
 训练与微调结束后，可调用crack_captcha()并传入验证码图片来尝试进行识别。
 
+### 7. ip2Region.py
+基于ip数据库的ip地址的地理位置区域判断。其中实现了3种方法以供调用，基于内存搜索的memorySearch()，基于二分搜索的binarySearch()，基于b-tree算法搜索的btreeSearch()。
+可自行根据搜索速度需求来选择方法。
+
 ## 🎉 贡献指南
 如果您同样有很棒的库函数，可以fork本仓库，提交一些不错的代码到新分支，并向本仓库提交Pull requests，
 在审核通过后，您的代码会加入到本仓库中。
